@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+
+    padding: 20px 200px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__container .nav-list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-list a {
+    color: #282B22;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.nav-list a:hover {
+    color: #a1da2f
+}
+
+.nomer {
+    display: flex;
+    gap: 7px;
+}
+
+.hero {
+ background-image: url(../img/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png);   
+    
+}
+ .hero__container .title2 h1 {
+    width: 446px;
+    padding: 120px 577px;
+    font-family: 'Lato';
+font-weight: 700;
+    font-size: 56px;
+    line-height: 67.2px;
+  
+    color: white;
+}
+.hero__container .title2 p{
+    font-family: 'Raleway';
+   width: 537px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height:27px ;
+    color:#FFFFFF;
+opacity: 80%;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 537px;
+}
+.hero__container .title2 button{
+    font-family: 'Raleway';
+margin: 50px 670px;
+padding: 22px 56px;
+font-weight: 700;
+    font-size: 16px;
+    line-height:16px ;
+    color:white;
+    background-color: #AE7B3C;
+    border: none;
+    transition: all 0.5s;
+}
+.hero__container .title2 button:hover{
+    background-color:#684720;
+}
+.info__container .title3 h1{
+    margin: 140px 556px;
+    
+    font-weight: 600;
+    font-size: 46px;
+    line-height:57px ;
+    color:#282B22;
+}
+.card{
+    max-width: 1200;
+    width:100%;
+    margin: 0 auto;
+   
+}
+.card__container {
+    width: 384px;
+    margin-left: 200px;
+   margin-top: 80px;
+  display: flex;
+ gap: 35px;
+    
+}
+.card__container .card1 h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height:24px ;
+    opacity: 50%;
+    padding-bottom: 60px;
+}
+.card__container .card1 h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height:24px ;
+    color:#3D4A39;
+    padding-bottom: 30px;
+  
+}
+
